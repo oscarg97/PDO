@@ -1,0 +1,55 @@
+<!DOCTYPE html> <!--comentario-->
+<html lang="en">
+	<head>
+		<title>
+			Prueba
+		</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css\bootstrap.min.css">
+		<script src="js\jquery.min.js"></script>
+		<script src="js\bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css\slide.css">
+		<style type="text/css">
+		.bg-grey{
+			background-color: #f6f6f6;
+		}
+
+		</style>
+	</head>
+	<body>
+		<h1>Registrarse</h1>
+		<form action="../back/insertarU.php" method="post">
+			<table>
+				<tr>
+					<td>Usuario:</td>
+					<td><input type="text" name="usuario"></td>
+				</tr>
+				<tr>
+					<td>Contra:</td>
+					<td><input type="text" name="contra"></td>
+				</tr>
+				<tr>
+					<td>Nombre:</td>
+					<td><input type="text" name="nombre"></td>
+				</tr>
+				<tr>
+					<td>Apellido:</td>
+					<td><input type="text" name="ape"></td>
+				</tr>
+				<tr>
+					<td>Direccion:</td>
+					<td><textarea rows="5" cols="25" name="dir"></textarea></td>
+				</tr>
+				<tr>
+					<td>Telefono:</td>
+					<td><input type="text" name="tel"></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td><input type="submit" value="Registrar" name="btnFinish"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

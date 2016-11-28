@@ -1,0 +1,23 @@
+.jumbotron{
+	background-color: #f4511e;/*Color de fondo*/
+}
+.jumbotron h1{ /*comentario*/
+	color: #ffffff;
+}
+.jumbotron p{
+	color: #aabcaa; /*color al texto*/
+	font-size: 18px; /*tamaño de letra*/
+}
+.menu{
+	width: 100%;/*anchura*/
+	height: 50px;/*altura*/
+}
+#icono{
+	background-color: white;
+}
+.navbar{
+	background-color: black;
+}
+.container-fluid{
+	padding: 1px 50px;
+}

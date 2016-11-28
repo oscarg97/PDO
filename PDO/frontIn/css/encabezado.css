@@ -1,0 +1,13 @@
+.rectangulo{
+	width: 900px; /*ancho del rectangulo*/
+	height: 250px; /*alto del rectangulo*/
+	background: #c8c8c8; /*color de fondo del rectangulo*/
+	margin: auto; /*centra el rectangulo*/
+}
+h1{
+	text-align: center;
+	font-family: segoe ui;
+	padding: 70px;
+	font-size: 50px;
+	color: gray;
+}

@@ -1,0 +1,49 @@
+.rectangle{
+	background-color: #696969;
+	padding-right:  75px;
+}
+.jumbotron{
+	background-color: red;/*Color de fondo*/
+}
+.jumbotron h1{ /*comentario*/
+	color: #ffffff;
+}
+.jumbotron p{
+	color: #aabcaa; /*color al texto*/
+	font-size: 18px; /*tamaño de letra*/
+}
+#barra{
+	/*width: 100%;/*anchura*/
+	/*height: 50px;/*altura*/
+	color: #ffffff;
+}
+.navbar{
+	background-color: transparent;
+	height: 1%;
+}
+#icono{
+	background-color: #000000;
+}
+.navbar-header{
+	padding-right: 90%;
+}
+.navbar-nav{
+	padding-bottom: 1000%;
+}
+.navbar-brand{
+	font-size: 15px;
+	color: white;
+}
+.navbar-collapse{
+	width: 100px;
+	padding-bottom: 100%;
+	height: 1000px;
+	background-color: black;
+}
+.navbar-toggle{
+	background-color: white;
+}
+header{
+	width: 100%;
+	height: 100%;
+}

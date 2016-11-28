@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!--comentario-->
+<html lang="en">
+	<head>
+		<title>
+			Prueba
+		</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css\bootstrap.min.css">
+		<script src="js\jquery.min.js"></script>
+		<script src="js\bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css\slide.css">
+		<style type="text/css">
+		.bg-grey{
+			background-color: #f6f6f6;
+		}
+
+		</style>
+	</head>
+	<body>
+		<h1>Registrarse</h1>
+		<form action="../back/insertarPb.php" method="post">
+			<table>
+				<tr>
+					<td>Nombre:</td>
+					<td><input type="text" name="nombre"></td>
+				</tr>
+				<tr>
+					<td>Descripcion:</td>
+					<td><textarea rows="5" cols="25" name="des"></textarea></td>
+				</tr>
+				<tr>
+					<td>Precio:</td>
+					<td><input type="text" name="precio"></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td><input type="submit" value="Ingresar" name="btnFinish"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
